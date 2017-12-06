@@ -11,6 +11,9 @@
 * add or replace file to languagecode.lproj/Localizable.strings
 
 ### 3. Using Localizable.strings
+1. run python build
+2. run project
+
 * check language data
 ```
   for(int i = 0; i < 20; i ++) {
