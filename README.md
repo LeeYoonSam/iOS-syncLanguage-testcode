@@ -6,7 +6,7 @@
 * make project and add target on project settings.
 
 ### 2. Add External Build System and python build settings..
-* [How to make and python build settings..?](http://blog.naver.com/lys1900)
+* [How to make and python build settings..?](http://blog.naver.com/lys1900/221155227669)
 * create python code to get Google sheet language data
 * add or replace file to languagecode.lproj/Localizable.strings
 
