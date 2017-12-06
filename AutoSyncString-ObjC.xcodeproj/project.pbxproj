@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB362ADF1FD7CCCF0042E7BA /* AutoTranslate-e0b894d394a1.json in Resources */ = {isa = PBXBuildFile; fileRef = DB362ADE1FD7CCCF0042E7BA /* AutoTranslate-e0b894d394a1.json */; };
 		DBB4CD421FD4EAC8004D43B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB4CD411FD4EAC8004D43B4 /* AppDelegate.m */; };
 		DBB4CD451FD4EAC8004D43B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB4CD441FD4EAC8004D43B4 /* ViewController.m */; };
 		DBB4CD481FD4EAC8004D43B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBB4CD461FD4EAC8004D43B4 /* Main.storyboard */; };
 		DBB4CD4A1FD4EAC8004D43B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBB4CD491FD4EAC8004D43B4 /* Assets.xcassets */; };
 		DBB4CD4D1FD4EAC8004D43B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBB4CD4B1FD4EAC8004D43B4 /* LaunchScreen.storyboard */; };
 		DBB4CD501FD4EAC8004D43B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB4CD4F1FD4EAC8004D43B4 /* main.m */; };
+		DBB4CD5C1FD4EC91004D43B4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DBB4CD5E1FD4EC91004D43B4 /* Localizable.strings */; };
+		DBECA84A1FD62CD000FA879C /* AutoMakeLocalization.py in Resources */ = {isa = PBXBuildFile; fileRef = DBECA8491FD62CD000FA879C /* AutoMakeLocalization.py */; };
+		DBECA84B1FD62CF400FA879C /* AutoMakeLocalization.py in Sources */ = {isa = PBXBuildFile; fileRef = DBECA8491FD62CD000FA879C /* AutoMakeLocalization.py */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DB362ADE1FD7CCCF0042E7BA /* AutoTranslate-e0b894d394a1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "AutoTranslate-e0b894d394a1.json"; sourceTree = "<group>"; };
 		DBB4CD3D1FD4EAC8004D43B4 /* AutoSyncString-ObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AutoSyncString-ObjC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBB4CD401FD4EAC8004D43B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DBB4CD411FD4EAC8004D43B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +31,14 @@
 		DBB4CD4C1FD4EAC8004D43B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DBB4CD4E1FD4EAC8004D43B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DBB4CD4F1FD4EAC8004D43B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DBB4CD691FD4F001004D43B4 /* ko */ = {isa = PBXFileReference; explicitFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DBB4CD6A1FD4F003004D43B4 /* zh-Hans */ = {isa = PBXFileReference; explicitFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		DBB4CD6B1FD4F1C7004D43B4 /* Base */ = {isa = PBXFileReference; explicitFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DBB4CD6C1FD4F4EB004D43B4 /* ko */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = ko; path = ko.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBB4CD6D1FD4F4EB004D43B4 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "zh-Hans"; path = "zh-Hans.lproj/Main.storyboard"; sourceTree = "<group>"; };
+		DBB4CD6E1FD4F4EB004D43B4 /* ko */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = ko; path = ko.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DBB4CD6F1FD4F4EB004D43B4 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.storyboard"; sourceTree = "<group>"; };
+		DBECA8491FD62CD000FA879C /* AutoMakeLocalization.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = AutoMakeLocalization.py; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,7 @@
 		DBB4CD3F1FD4EAC8004D43B4 /* AutoSyncString-ObjC */ = {
 			isa = PBXGroup;
 			children = (
+				DBECA8481FD62CD000FA879C /* AutoMakeLocalization */,
 				DBB4CD401FD4EAC8004D43B4 /* AppDelegate.h */,
 				DBB4CD411FD4EAC8004D43B4 /* AppDelegate.m */,
 				DBB4CD431FD4EAC8004D43B4 /* ViewController.h */,
@@ -67,11 +81,37 @@
 				DBB4CD4B1FD4EAC8004D43B4 /* LaunchScreen.storyboard */,
 				DBB4CD4E1FD4EAC8004D43B4 /* Info.plist */,
 				DBB4CD4F1FD4EAC8004D43B4 /* main.m */,
+				DBB4CD5E1FD4EC91004D43B4 /* Localizable.strings */,
 			);
 			path = "AutoSyncString-ObjC";
 			sourceTree = "<group>";
 		};
+		DBECA8481FD62CD000FA879C /* AutoMakeLocalization */ = {
+			isa = PBXGroup;
+			children = (
+				DB362ADE1FD7CCCF0042E7BA /* AutoTranslate-e0b894d394a1.json */,
+				DBECA8491FD62CD000FA879C /* AutoMakeLocalization.py */,
+			);
+			path = AutoMakeLocalization;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		DBB4CD941FD553E0004D43B4 /* AutoMakeLocalization */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = DBB4CD951FD553E0004D43B4 /* Build configuration list for PBXLegacyTarget "AutoMakeLocalization" */;
+			buildPhases = (
+			);
+			buildToolPath = /Library/Frameworks/Python.framework/Versions/3.6/bin/python3;
+			dependencies = (
+			);
+			name = AutoMakeLocalization;
+			passBuildSettingsInEnvironment = 1;
+			productName = AutoMakeLocalization;
+		};
+/* End PBXLegacyTarget section */
 
 /* Begin PBXNativeTarget section */
 		DBB4CD3C1FD4EAC8004D43B4 /* AutoSyncString-ObjC */ = {
@@ -104,6 +144,10 @@
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
 					};
+					DBB4CD941FD553E0004D43B4 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = DBB4CD381FD4EAC8004D43B4 /* Build configuration list for PBXProject "AutoSyncString-ObjC" */;
@@ -111,8 +155,10 @@
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
+				ko,
+				"zh-Hans",
 			);
 			mainGroup = DBB4CD341FD4EAC8004D43B4;
 			productRefGroup = DBB4CD3E1FD4EAC8004D43B4 /* Products */;
@@ -120,6 +166,7 @@
 			projectRoot = "";
 			targets = (
 				DBB4CD3C1FD4EAC8004D43B4 /* AutoSyncString-ObjC */,
+				DBB4CD941FD553E0004D43B4 /* AutoMakeLocalization */,
 			);
 		};
 /* End PBXProject section */
@@ -129,9 +176,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBECA84A1FD62CD000FA879C /* AutoMakeLocalization.py in Resources */,
 				DBB4CD4D1FD4EAC8004D43B4 /* LaunchScreen.storyboard in Resources */,
+				DBB4CD5C1FD4EC91004D43B4 /* Localizable.strings in Resources */,
 				DBB4CD4A1FD4EAC8004D43B4 /* Assets.xcassets in Resources */,
 				DBB4CD481FD4EAC8004D43B4 /* Main.storyboard in Resources */,
+				DB362ADF1FD7CCCF0042E7BA /* AutoTranslate-e0b894d394a1.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,6 +192,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBECA84B1FD62CF400FA879C /* AutoMakeLocalization.py in Sources */,
 				DBB4CD451FD4EAC8004D43B4 /* ViewController.m in Sources */,
 				DBB4CD501FD4EAC8004D43B4 /* main.m in Sources */,
 				DBB4CD421FD4EAC8004D43B4 /* AppDelegate.m in Sources */,
@@ -155,6 +206,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				DBB4CD471FD4EAC8004D43B4 /* Base */,
+				DBB4CD6C1FD4F4EB004D43B4 /* ko */,
+				DBB4CD6D1FD4F4EB004D43B4 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -163,8 +216,20 @@
 			isa = PBXVariantGroup;
 			children = (
 				DBB4CD4C1FD4EAC8004D43B4 /* Base */,
+				DBB4CD6E1FD4F4EB004D43B4 /* ko */,
+				DBB4CD6F1FD4F4EB004D43B4 /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DBB4CD5E1FD4EC91004D43B4 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBB4CD691FD4F001004D43B4 /* ko */,
+				DBB4CD6A1FD4F003004D43B4 /* zh-Hans */,
+				DBB4CD6B1FD4F1C7004D43B4 /* Base */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -174,6 +239,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -229,6 +295,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -300,6 +367,31 @@
 			};
 			name = Release;
 		};
+		DBB4CD961FD553E0004D43B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEBUGGING_SYMBOLS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DBB4CD971FD553E0004D43B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -317,6 +409,15 @@
 			buildConfigurations = (
 				DBB4CD541FD4EAC8004D43B4 /* Debug */,
 				DBB4CD551FD4EAC8004D43B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBB4CD951FD553E0004D43B4 /* Build configuration list for PBXLegacyTarget "AutoMakeLocalization" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBB4CD961FD553E0004D43B4 /* Debug */,
+				DBB4CD971FD553E0004D43B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

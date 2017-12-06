@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
+   <Group
+      location = "group:../AutoMakeLocalization"
+      name = "AutoMakeLocalization">
+      <FileRef
+         location = "group:AutoMakeLocalization.py">
+      </FileRef>
+      <FileRef
+         location = "group:AutoMakeLocalization.xcodeproj">
+      </FileRef>
+   </Group>
    <FileRef
       location = "self:AutoSyncString-ObjC.xcodeproj">
    </FileRef>
